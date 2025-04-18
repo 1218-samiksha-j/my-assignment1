@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            margin-top:50px;
+            
+           
+        }
+        .grid-container{
+           
+            display:grid;
+            grid-template-columns:repeat(4,200px);
+            grid-template-rows:repeat(3,140px);
+            height:700px;
+            width:700px;
+            column-gap:5px;
+            row-gap:5px;
+            position:relative;
+            top:70px;
+            
+        }
+        .grid-item{
+            background-size: cover;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:30px;
+            color:white;
+            font-weight: 40px;
+        }
+        .item-1  {
+          grid-column:1/2;
+          grid-row:1/2;
+          background-image:url("adalaj.jpg");
+        }
+        .item-2  {
+          grid-column:2/3;
+          grid-row:1/2;
+          background-image:url("rajasthan.jpg");
+        }
+        .item-3  {
+          grid-column:3/4;
+          grid-row:1/2;
+          background-image:url("tajmahel.jpg");
+        }
+        .item-4 {
+          grid-column:1/2;
+          grid-row:2/3;
+          background-image:url("mumbai.jpg");
+        }
+        .item-5  {
+          grid-column:2/3;
+          grid-row:2/3;
+          background-image:url("nepal.jpg");
+        }
+        .item-6  {
+          grid-column: 3/4;
+          grid-row:2/3;
+          background-image:url("butan.jpg");
+        }
+        .item-7  {
+          grid-column:1/2;
+          grid-row:3/4;
+          background-image:url("jammu.jpg");
+        }
+        .item-8  {
+          grid-column:2/3;
+          grid-row:3/4;
+          background-image:url("ujjan.webp");
+        }
+        .item-9  {
+          grid-column: 3/4;
+          grid-row:3/4;
+          background-image:url("delhi.webp");
+        }
+        
+        </style>
+        </head>
+        <body>
+            
+            <div class="grid-container">
+            <div class="grid-item item-1"></div>
+            <div class="grid-item item-2"></div>
+            <div class="grid-item item-3"></div>
+            <div class="grid-item item-4"></div>
+            <div class="grid-item item-5"></div>
+            <div class="grid-item item-6"></div>
+            <div class="grid-item item-7"></div>
+            <div class="grid-item item-8"></div>
+            <div class="grid-item item-9"></div>
+        
+            </div>
+        </body>
+        </html>
+          
